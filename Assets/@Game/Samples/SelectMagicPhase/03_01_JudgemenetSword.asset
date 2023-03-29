@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26806f68c405b2245984884d3ebb0ae4, type: 3}
+  m_Name: 03_01_JudgemenetSword
+  m_EditorClassIdentifier: 
+  ElementType: 3
+  SkillType: 1
+  SkillName: "\uC800\uC9C0\uBA3C\uD2B8 \uC18C\uB4DC"
+  SkillSpell:
+  - "\uC815\uC758 \uCE7C\uB0A0\uB85C \uC2EC\uD310\uD574\uC8FC\uC9C0!"
+  - "\uD558\uB298\uC5D0\uC11C \uC815\uC758\uAC00 \uBE57\uBC1C\uCE5C\uB2E4!"
+  SkillSprite: {fileID: 21300000, guid: 3e263213a26ee4b43bc62f9a2f8b938c, type: 3}
+  DescriptionSprite: {fileID: 21300000, guid: 2b7e223a3971f034ba20689311a47315, type: 3}
+  SfxMaleVoice: {fileID: 0}
+  SfxGirlVoice: {fileID: 0}
+  SpellTextColorGradient: {fileID: 11400000, guid: 0ab09d6b2c297ec499224df3528efd89, type: 2}
+  Pattern: {fileID: 11400000, guid: 0ad292097b68e934985df9612b8d2210, type: 2}
+  UsedMP: 20
+  Damage: 28
+  HealMP: 0
+  HealHP: 0
+  isAble: 0
+  ExtraDamage: 0
+  ExtraHeal: 0

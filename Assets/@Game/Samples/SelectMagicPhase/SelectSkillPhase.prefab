@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7780586438650328131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7780586438650328130}
+  - component: {fileID: 7780586438650328133}
+  m_Layer: 0
+  m_Name: SelectSkillPhase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7780586438650328130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780586438650328131}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1389763, y: 1.1489955, z: 5.514977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7780586438650328133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780586438650328131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca4d3bcf07fb43459d5cab174941aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SkillArr:
+  - {fileID: 11400000, guid: a10b6e94cb850314d91f8b38d7875a59, type: 2}
+  - {fileID: 11400000, guid: d8d7a12f389f041499a0ee90936a3677, type: 2}
+  - {fileID: 11400000, guid: 58dcb79af8a160242b7539bc4b79a7a3, type: 2}
+  - {fileID: 11400000, guid: b5c29d98af55e14438efdf0f8568857c, type: 2}
+  - {fileID: 11400000, guid: 48822cc65dc670e40ac00d789a7c888b, type: 2}
+  - {fileID: 11400000, guid: 05fc69dda82f5234eab45e19e4f7abd4, type: 2}
+  - {fileID: 11400000, guid: 1c3c112374d057b4b82f871421aa6748, type: 2}
+  - {fileID: 11400000, guid: 27ca3d689aa4f50448fee71d1c11c2a9, type: 2}
+  m_SelectElementHolder: {fileID: 0}
+  m_UI_FirstSkillPanel: {fileID: 0}
+  m_UI_SecondSkillPanel: {fileID: 0}

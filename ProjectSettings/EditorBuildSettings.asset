@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/@Game/Scenes/VRMain/VRMain.unity
+    guid: 3e5a668465331824585471101f6205a6
+  - enabled: 1
+    path: Assets/@Game/Scenes/VRIntro/VRIntro.unity
+    guid: 808df4752e4d1e34a9a3062cb44de923
+  - enabled: 1
+    path: Assets/@Game/Scenes/_Misc/VRLoadingStatic.unity
+    guid: 536a9a208cc08f749bbf39add2ac368c
+  - enabled: 1
+    path: Assets/@Game/Scenes/NetworkGameplay/VRNetworkGameplay.unity
+    guid: e1d495cbf6a6cf24d9c77ce1e2c383bc
+  - enabled: 1
+    path: Assets/@Game/Scenes/Result/Result_M_Win.unity
+    guid: 06cc97769f2547c4e89cdb234c173f54
+  - enabled: 1
+    path: Assets/@Game/Scenes/Result/Result_G_Win.unity
+    guid: 64b9933f6fc4fbf47ac97dd53b4c841a
+  - enabled: 1
+    path: Assets/@Game/Scenes/Credit/Credit.unity
+    guid: dc8ee02065aeea649a487ec4edc7b904
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a39337aabe06d7d41abf77cf2fafdc68, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ec05d0a09dbfe924099c5e9bc53d1494, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c4f49411cdf915947b897a20f2f454c2, type: 2}

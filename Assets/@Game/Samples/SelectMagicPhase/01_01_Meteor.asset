@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26806f68c405b2245984884d3ebb0ae4, type: 3}
+  m_Name: 01_01_Meteor
+  m_EditorClassIdentifier: 
+  ElementType: 1
+  SkillType: 1
+  SkillName: "\uBA54\uD14C\uC624"
+  SkillSpell:
+  - "\uB098\uC758 \uBD80\uB984\uC5D0 \uC751\uB2F5\uD558\uB77C,<br>\uBA54\uD14C\uC624!"
+  - "\uC544\uB9C8\uAC9F\uB3C8<br>100\uB9CC\uBD84\uC758 1!!"
+  SkillSprite: {fileID: 21300000, guid: b2319bb69c18aa542b9585c6b7df9ae3, type: 3}
+  DescriptionSprite: {fileID: 21300000, guid: b8664cc600155e24d935e244c98db7b3, type: 3}
+  SfxMaleVoice: {fileID: 0}
+  SfxGirlVoice: {fileID: 0}
+  SpellTextColorGradient: {fileID: 11400000, guid: 4f4956f5f9c101b41ad5c9036e9d1c72, type: 2}
+  Pattern: {fileID: 11400000, guid: 1ed553d67a8dd28448b381ff7253676f, type: 2}
+  UsedMP: 30
+  Damage: 40
+  HealMP: 0
+  HealHP: 0
+  isAble: 0
+  ExtraDamage: 0
+  ExtraHeal: 0

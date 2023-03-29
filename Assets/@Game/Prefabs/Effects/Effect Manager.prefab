@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1878760924136856556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878760924136856558}
+  - component: {fileID: 1878760924136856557}
+  m_Layer: 0
+  m_Name: Effect Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878760924136856558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878760924136856556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.58925855, y: 2.2652273, z: -1.070769}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1878760924136856557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878760924136856556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4de5e742f7f34a468d01493cd33b27b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorObject: {fileID: 0}
+  fireCirclePrefab: {fileID: 30450835285339831, guid: 3981e6c8b9282d942a99864dbaff3c53, type: 3}
+  meteorStonePrefab: {fileID: 8485498978493272918, guid: 4851d4b00f01b6742b99249157b4724c, type: 3}
+  meteorExplosion_1Prefab: {fileID: 8564807622408774964, guid: d0d62562599d1834186b01a3bf873d5b, type: 3}
+  meteorExplosion_2Prefab: {fileID: 5223507543162628636, guid: 67bf85d1cadc76d469e3b2461d20c229, type: 3}
+  magmaImpactPrefab: {fileID: 6017172484430872115, guid: 02d278f0501346040b00145604049cd0, type: 3}
+  fireCirclePrefab2: {fileID: 30450835285339831, guid: ae4a9ab1a6ed5cf4383cb3288f917a52, type: 3}
+  healingOraPrefab: {fileID: 5423886224723388364, guid: 2541e0c60a5a36e49a9e173ad34be45d, type: 3}
+  healingEffectPrefab: {fileID: 7294421802550084591, guid: c8e16e6e174be184b95dc2a0ea49987e, type: 3}
+  iceCirclePrefab: {fileID: 452550318328657999, guid: 93557ddafdcb9054ea938c4ff926c11c, type: 3}
+  chainIceboltPrefab: {fileID: 4272716657355653691, guid: b30fdceb1d3efb14fa736df5faf1b49d, type: 3}
+  swordAirPrefab: {fileID: 2686500634025769025, guid: 6599a92770c8bff46840332e890f6f7d, type: 3}
+  swordCraterPrefab: {fileID: 7936202267283303476, guid: f08b509002aa4844a8396190e5593863, type: 3}
+  swordAoePrefab: {fileID: 4093588052356860666, guid: cc1ba590783a49c448cb32e5a20dda69, type: 3}
+  swordCraterULTPrefab: {fileID: 4401260998445206592, guid: 5d3109b2c03060541bb5268e88f71bc4, type: 3}
+  swordULTPrefab: {fileID: 3649173402322992248, guid: feb2647ac45fb3d489fb4511e83de514, type: 3}
+  lightningStrikePrefab: {fileID: 2446991492510855666, guid: b05492a644ad8aa47b7dfbcc45cfad24, type: 3}
+  lightningStrike2Prefab: {fileID: 198785544065499596, guid: bde090df84b36794d85627fb397cae50, type: 3}
+  lightCirclePrefab: {fileID: 4085440461842215483, guid: 3f0215d6cc4cd7e4c95c362e6ad0de83, type: 3}
+  curseStonePrefab: {fileID: 4416637631935455364, guid: 3ca1eaabe7fb34d408c68d124cff68da, type: 3}
+  curseCirclePrefab: {fileID: 8409306250396884126, guid: bf1c82eefe0b17b4abdf41c940f5ebf6, type: 3}
+  curseExplosionPrefab: {fileID: 6196842839015190805, guid: d25c9b3066143894a813822681b57921, type: 3}
+  mistEffectPrefab: {fileID: 5603200948049751651, guid: f00f51118fe0c7d46a0b84d731038648, type: 3}
+  mistExplosionPrefab: {fileID: 4513976340221410037, guid: 416b238001c94b94cbc5b55602a9482b, type: 3}
+  fireCircleDelay: 1
+  meteorDropSpeed: 0.8
+  meteorSpawn_X: 50
+  meteorSpawn_Y: 40
+  meteorSpawn_Z: 20
+  meteorEffectPosition_Y: 2
+  meteorSkillDelayTime: 2
+  magmaImpactDelay: 0.2
+  totalMagmaCount: 4
+  magmaImpactTotalSkillTime: 2
+  healingTime: 3
+  effectPosition_Z: 0
+  effectPosition_Y: 3
+  oraPosition_z: 3
+  icebolt_1_X: 3
+  icebolt_1_Y: 0
+  icebolt_1_Z: -2
+  icebolt_2_X: 3
+  icebolt_2_Y: 3
+  icebolt_2_Z: -3
+  icebolt_3_X: 3
+  icebolt_3_Y: 5
+  icebolt_3_Z: 0
+  icebolt_4_X: 3
+  icebolt_4_Y: 3
+  icebolt_4_Z: 3
+  icebolt_5_X: 3
+  icebolt_5_Y: 0
+  icebolt_5_Z: 2
+  enemyPos_y: 3
+  iceCircleDelay: 0.4
+  iceboltDelay: 0.2
+  iceboltSkillDelayTime: 2.5
+  lightningPosition_Y: 0
+  lightningPosition_Z: 0
+  lightCircleDelay: 1
+  lightningSkillDelayTime: 2.5
+  swordAoeDelay: 2.3
+  swordShootingDelay: 2
+  swordTime: 4.35
+  curseDropDelay: 0.5
+  stoneDropPosition_Y: 5
+  curseExplosionDelay: 1
+  explosionPosition_Y: 1
+  curseTotalDelayTime: 2.4
+  mistTotalDelayTime: 1
+  mistPosition_Z: -3
+  mistPosition_Y: 0

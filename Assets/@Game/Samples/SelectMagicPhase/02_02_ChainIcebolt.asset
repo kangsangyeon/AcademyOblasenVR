@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26806f68c405b2245984884d3ebb0ae4, type: 3}
+  m_Name: 02_02_ChainIcebolt
+  m_EditorClassIdentifier: 
+  ElementType: 2
+  SkillType: 2
+  SkillName: "\uCCB4\uC778 \uC544\uC774\uC2A4\uBCFC\uD2B8"
+  SkillSpell:
+  - "\uBC1B\uC544\uB77C,<br>\uCCB4\uC778 \uC544\uC774\uC2A4\uBCFC\uD2B8!!"
+  - "\uC0AC\uBB34\uCE58\uB294 \uD55C\uAE30\uB97C \uB290\uAEF4\uBD10!"
+  SkillSprite: {fileID: 21300000, guid: 463a2398a89c490439425dbd7f5aa7cb, type: 3}
+  DescriptionSprite: {fileID: 21300000, guid: fdfdd7f2c56c3e04fbaffdfb5b87a402, type: 3}
+  SfxMaleVoice: {fileID: 0}
+  SfxGirlVoice: {fileID: 0}
+  SpellTextColorGradient: {fileID: 11400000, guid: 97bb2e588fcb8b04893b32dff9dacde9, type: 2}
+  Pattern: {fileID: 11400000, guid: af82f6c0014d1b34a94467c4b50e09b9, type: 2}
+  UsedMP: 0
+  Damage: 3
+  HealMP: 40
+  HealHP: 0
+  isAble: 0
+  ExtraDamage: 0
+  ExtraHeal: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26806f68c405b2245984884d3ebb0ae4, type: 3}
+  m_Name: 04_02_DarkMist
+  m_EditorClassIdentifier: 
+  ElementType: 4
+  SkillType: 2
+  SkillName: "\uB2E4\uD06C\uBBF8\uC2A4\uD2B8"
+  SkillSpell:
+  - "\uB290\uAEF4\uB77C,<br>\uC774\uAC8C \uB108\uC640 \uB098\uC758 \uCC28\uC774\uB2E4!"
+  - "\uC9D9\uC740 \uC5B4\uB460\uC5D0 \uC808\uADDC\uD558\uB77C!"
+  SkillSprite: {fileID: 21300000, guid: 2b2e7312bcbb0c947bd2ffd0fec223f7, type: 3}
+  DescriptionSprite: {fileID: 21300000, guid: e139394778954144ebb9d99d57f2bce5, type: 3}
+  SfxMaleVoice: {fileID: 0}
+  SfxGirlVoice: {fileID: 0}
+  SpellTextColorGradient: {fileID: 11400000, guid: ed04fa697f48fe14eae69d40aba29e6b, type: 2}
+  Pattern: {fileID: 11400000, guid: 976ee38d9d524c24fa029f4221aec4e2, type: 2}
+  UsedMP: 15
+  Damage: 32
+  HealMP: 0
+  HealHP: 0
+  isAble: 0
+  ExtraDamage: 0
+  ExtraHeal: 0

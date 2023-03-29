@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
+  m_Name: DarkText
+  m_EditorClassIdentifier: 
+  colorMode: 3
+  topLeft: {r: 0.25689122, g: 0.078987174, b: 0.6698113, a: 1}
+  topRight: {r: 0.31054917, g: 0.1981577, b: 0.5754717, a: 1}
+  bottomLeft: {r: 0.7049303, g: 0.58775365, b: 0.9811321, a: 1}
+  bottomRight: {r: 0.7058824, g: 0.5882353, b: 0.9803922, a: 1}
